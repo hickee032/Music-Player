@@ -18,6 +18,21 @@
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="100"/>
             </Grid.RowDefinitions>
+            <!--menu-->
+            <Border Background="White" CornerRadius="40 0 0 40" Grid.RowSpan="2">
+                <!--Ellipse-->
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="63 10 0 10">
+                    <Ellipse Fill="#ff6258" Width="10" Height="10"/>
+                    <Ellipse Fill="#ffbf2f" Width="10" Height="10" Margin="7 0"/>
+                    <Ellipse Fill="#2acb42" Width="10" Height="10"/>
+                </StackPanel>
+                
+                <TextBlock Text="LIBRARY" />
+                
+                <Button>
+                    
+                </Button>
+            </Border>
         </Grid>
     </Border>
 </Window>
