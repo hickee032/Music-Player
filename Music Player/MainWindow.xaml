@@ -26,16 +26,68 @@
                         <Ellipse Fill="#2acb42" Width="10" Height="10"/>
                     </StackPanel>
 
-                    <TextBlock Text="LIBRARY" />
+                    <TextBlock Text="LIBRARY" Style="{StaticResource menuTitle}"/>
 
-                    <Button>
+                    <Button Style="{StaticResource menuButton}" Background="#02be68" Foreground="White">
                         <Grid>
-                            <TextBlock Text="Home"/>
-                            <Icon:PackIconMaterial Kind="AccountArrowRight"/>
+                            <TextBlock Text="Playlists" Margin="0 0 0 2"/>
+                            <Icon:PackIconMaterial Style="{StaticResource menuButtonIcon}" Visibility="Visible"/>
+                        </Grid>
+                    </Button>
+
+                    <Button Style="{StaticResource menuButton}" >
+                        <Grid>
+                            <TextBlock Text="Artists" Margin="0 0 0 2"/>
+                            <Icon:PackIconMaterial Style="{StaticResource menuButtonIcon}" Visibility="Visible"/>
+                        </Grid>
+                    </Button>
+
+                    <Button Style="{StaticResource menuButton}" >
+                        <Grid>
+                            <TextBlock Text="Albums" Margin="0 0 0 2"/>
+                            <Icon:PackIconMaterial Style="{StaticResource menuButtonIcon}" Visibility="Visible"/>
+                        </Grid>
+                    </Button>
+
+                    <Button Style="{StaticResource menuButton}" >
+                        <Grid>
+                            <TextBlock Text="Songs" Margin="0 0 0 2"/>
+                            <Icon:PackIconMaterial Style="{StaticResource menuButtonIcon}" Visibility="Visible"/>
+                        </Grid>
+                    </Button>
+
+                    <TextBlock Text="DISCOVER" Style="{StaticResource menuTitle}"/>
+
+                    <Button Style="{StaticResource menuButton}" >
+                        <Grid>
+                            <TextBlock Text="Store" Margin="0 0 0 2"/>
+                            <Icon:PackIconMaterial Style="{StaticResource menuButtonIcon}" Visibility="Visible"/>
+                        </Grid>
+                    </Button>
+
+                    <Button Style="{StaticResource menuButton}" >
+                        <Grid>
+                            <TextBlock Text="Radio" Margin="0 0 0 2"/>
+                            <Icon:PackIconMaterial Style="{StaticResource menuButtonIcon}" Visibility="Visible"/>
+                        </Grid>
+                    </Button>
+
+                    <Button Style="{StaticResource menuButton}" >
+                        <Grid>
+                            <TextBlock Text="For you" Margin="0 0 0 2"/>
+                            <Icon:PackIconMaterial Style="{StaticResource menuButtonIcon}" Visibility="Visible"/>
                         </Grid>
                     </Button>
                 </StackPanel>
             </Border>
+            
+            <!-- Music Selection-->
+            <StackPanel Grid.Column="1" Background="White" Margin="40 60 10 0">
+                <TextBlock Text="Home" Style="{StaticResource titleText}"/>
+                <Border>
+                    
+                </Border>
+            </StackPanel>
         </Grid>
     </Border>
 </Window>
