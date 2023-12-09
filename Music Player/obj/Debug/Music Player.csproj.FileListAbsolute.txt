@@ -115,3 +115,5 @@ C:\Users\bluep\source\repos\Music Player\Music Player\obj\Debug\Music Player.csp
 C:\Users\bluep\source\repos\Music Player\Music Player\obj\Debug\Music Player.csproj.CopyComplete
 C:\Users\bluep\source\repos\Music Player\Music Player\obj\Debug\Music Player.exe
 C:\Users\bluep\source\repos\Music Player\Music Player\obj\Debug\Music Player.pdb
+C:\Users\bluep\source\repos\Music Player\Music Player\obj\Debug\UserControls\SongItem.g.cs
+C:\Users\bluep\source\repos\Music Player\Music Player\obj\Debug\UserControls\SongItem.baml
